@@ -1,4 +1,40 @@
-.title {
-  font-style: Gill Sans sans-serif;
+.header {
+  font-style: georgia;
   text-align: center;
+  min-height: 600px;
+  background-image: url("/Users/gioia/Desktop/Phd Material /HTML/CFG/git/Gioiacopini.github.io/foto/sheffield.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: black;
+}
+.contacts{
+  text-align: left;
+  background-color: black;
+  color: white;
+  margin-top: 0px;
+}
+.resize {
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: auto;
+  border-radius: 50%;
+}
+.insta{
+  width: 50px;
+}
+.twitter{
+    width: 70px;
+}
+.col-sm-4{
+  text-align: center;
+}
+img {
+  text-align: center;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+.icon{
+  width: 11px;
 }
