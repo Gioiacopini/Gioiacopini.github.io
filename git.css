@@ -1,17 +1,32 @@
 .header {
-  font-style: georgia;
+
   text-align: center;
   min-height: 600px;
-  background-image: url("/Users/gioia/Desktop/Phd Material /HTML/CFG/git/Gioiacopini.github.io/foto/sheffield.jpg");
+  background-image: url("./foto/sheffield.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-color: black;
+}
+h1{
+  font-family: 'Lobster', cursive;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+h2{
+  font-family: 'Play', sans-serif;
+}
+p{
+  font-family: 'Play', sans-serif;
+
 }
 .contacts{
   text-align: left;
   background-color: black;
   color: white;
   margin-top: 0px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
 }
 .resize {
   width: 300px;
@@ -19,12 +34,7 @@
   margin-bottom: auto;
   border-radius: 50%;
 }
-.insta{
-  width: 50px;
-}
-.twitter{
-    width: 70px;
-}
+
 .col-sm-4{
   text-align: center;
 }
@@ -33,8 +43,4 @@ img {
 }
 a:hover{
   text-decoration: underline;
-}
-
-.icon{
-  width: 11px;
 }
