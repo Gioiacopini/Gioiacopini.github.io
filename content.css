@@ -1,0 +1,43 @@
+.col-sm-6{
+  text-align: center;
+  font-family: 'Baloo Tamma', cursive;
+  background-color: black;
+}
+
+.header{
+  margin-top: 90px;
+  color: white;
+  font-family: 'Baloo Tamma', cursive;
+  text-align: center;
+}
+
+a{
+  color: white
+}
+
+a:hover{
+  color: white;
+  text-decoration:underline;
+}
+
+a::after{
+  color: white;
+}
+
+body{
+  background-color: black;
+}
+
+
+.footer{
+  background-color: black;
+  text-align: center;
+}
+
+.footer p{
+  color: white;
+}
+
+.footer small{
+  color: white;
+}

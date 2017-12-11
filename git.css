@@ -20,8 +20,8 @@ h2{
 }
 p{
   font-family: 'Play', sans-serif;
-
 }
+
 .contacts{
   text-align: left;
   background-color: black;
@@ -40,11 +40,20 @@ p{
 .col-sm-4{
   text-align: center;
 }
+
 img {
   text-align: center;
 }
+
+a {
+  color: black;
+  font-size: 15pt;
+}
+
 a:hover{
-  text-decoration: underline;
+  text-decoration:underline;
+  color: black;
+
 }
 
 .footer{
