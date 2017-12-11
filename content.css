@@ -12,12 +12,14 @@ nav .col-sm-3 {
 }
 
 a{
-  color: white
+  color: white;
+  padding: 15px;
 }
 
 a:hover{
-  color: white;
-  text-decoration:underline;
+  color: black;
+  text-decoration:none;
+  background-color: white;
 }
 
 a::after{
@@ -45,4 +47,8 @@ body{
 
 .footer small{
   color: white;
+}
+
+.footer a:hover{
+  background-color: black;
 }
