@@ -8,12 +8,12 @@
   background-color: #e0e0e0;
   padding: 0;
 }
-h1{
-  font-family: 'Lobster', cursive;
-}
+
+
 body {
   font-family: 'Raleway', sans-serif;
-  background-color: #e0e0e0;
+  background-color: #c9b2ba;
+
 }
 h2{
   font-family: 'Play', sans-serif;
@@ -28,19 +28,21 @@ h2{
   font-family: 'Montserrat', sans-serif;
   padding: 0;
 }
-.resize {
+
+.col-sm-4{
+  text-align: center;
+}
+
+.header img {
+  text-align: center;
   width: 300px;
   margin-top: 50px;
   margin-bottom: auto;
   border-radius: 50%;
 }
 
-.col-sm-4{
-  text-align: center;
-}
-
-img {
-  text-align: center;
+.header h1{
+  font-family: 'Special Elite', cursive;
 }
 
 a {
@@ -51,11 +53,10 @@ a {
 a:hover{
   text-decoration:underline;
   color: black;
-
 }
 
 .footer{
-  background-color: #e0e0e0;
+  background-color: #c9b2ba;
   text-align: center;
 }
 
