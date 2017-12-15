@@ -73,12 +73,15 @@ table a:hover{
   text-decoration: none;
 }
 
+.footer img:hover{
+
+}
+
 .about_content{
   padding-bottom: 20px;
 }
 .about_content p {
   font-family: 'Raleway', sans-serif;
-  
   text-align: left;
   padding-top: 50px;
   font-size: 14pt;
@@ -94,9 +97,10 @@ table a:hover{
   font-family: 'Raleway', sans-serif;
   padding: 15px;
   text-align: left;
+  font-size: 14pt;
 }
 
 .research_content img{
   width: 300px;
-  padding: 15px;
+  padding: 25px;
 }
