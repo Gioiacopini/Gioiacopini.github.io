@@ -30,9 +30,9 @@ body{
   background-color: black;
 }
 
-.col-sm-6{
+#table {
   text-align: center;
-  background-color: white;
+  padding: 15px;
 }
 
 
@@ -51,4 +51,14 @@ body{
 
 .footer a:hover{
   background-color: black;
+}
+
+.about_content p {
+  font-family: 'Raleway', sans-serif;
+  padding: 15px;
+  text-align: center;
+}
+
+.about_content img{
+  width: 400px;
 }
