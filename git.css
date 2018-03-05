@@ -1,20 +1,17 @@
 .header {
-
   text-align: center;
   min-height: 600px;
-  background-image: url("./foto/sheffield.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-color: #e0e0e0;
   padding: 0;
 }
 
 
 body {
   font-family: 'Raleway', sans-serif;
-  background-color: #c9b2ba;
-
+  background-image: url("./foto/sheffield.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
+
 h2{
   font-family: 'Play', sans-serif;
 }
@@ -33,13 +30,6 @@ h2{
   text-align: center;
 }
 
-.header img {
-  text-align: center;
-  width: 300px;
-  margin-top: 50px;
-  margin-bottom: auto;
-  border-radius: 50%;
-}
 
 .header h1{
   font-family: 'Anonymous Pro', monospace;
@@ -55,15 +45,18 @@ a:hover{
   color: black;
 }
 
-.footer{
+footer{
   background-color: #c9b2ba;
   text-align: center;
+  left: 0;
+  position: absolute;
+  width: 100%;
 }
 
-.footer p{
+footer p{
   color: black;
 }
 
-.footer small{
+footer small{
   color: black;
 }
