@@ -1,4 +1,7 @@
 
+html{
+  background-color: #c9b2ba;
+}
 nav{
   font-family: 'Anonymous Pro', monospace;
   background-color: #c9b2ba;
@@ -64,9 +67,7 @@ footer{
   padding-top: 20px;
   background-color: #c9b2ba;
   text-align: center;
-  left: 0;
   bottom: 0;
-  position: fixed;
   width: 100%;
 }
 
