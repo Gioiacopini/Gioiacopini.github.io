@@ -97,8 +97,9 @@ footer img:hover{
 }
 
 .about_content img{
-  width: 400px;
+  width: 300px;
   border-radius: 50%;
+  margin-top: 40px;
 }
 
 .research_content p{
