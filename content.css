@@ -1,7 +1,4 @@
 
-html{
-  background-color: #c9b2ba;
-}
 nav{
   font-family: 'Anonymous Pro', monospace;
   background-color: #c9b2ba;
@@ -107,7 +104,6 @@ footer img:hover{
   padding-bottom: 20px;
   font-family: 'Raleway', sans-serif;
   padding: 15px;
-  padding-bottom: 200px;
   text-align: left;
   font-size: 14pt;
 }
