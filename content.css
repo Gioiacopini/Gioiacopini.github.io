@@ -1,33 +1,32 @@
 
 nav{
-  font-family: 'Anonymous Pro', monospace;
-  background-color: #c9b2ba;
+  font-family: 'Josefin Slab', serif;
+  background-color: white;
   text-align: center;
 
 }
-
 .header{
   color: black;
-  /*font-family: 'Baloo Tamma', cursive;*/
-  font-family: 'Anonymous Pro', monospace;
+
+  font-family: 'Josefin Slab', serif;
   text-align: center;
 }
 
 nav a{
-  color: white;
-  padding: 15px;
-  font-size: 20pt;
+  color: black;
+  padding: 10px;
+  font-size: 15pt;
   text-align: center;
 }
 
 nav a:hover{
-  color: white;
+  color: grey;
   text-decoration:none;
-  font-size: 25pt;
+  border-bottom: 2px solid #ff9933
 }
 
 a::after{
-  color: white;
+  color: black;
 }
 
 body{
@@ -44,7 +43,7 @@ body{
 
 .table th{
   text-align: center;
-  background-color:#c9b2ba;
+  background-color:#ff9933;
   font-size: 14pt;
 }
 
@@ -55,21 +54,22 @@ table a{
 
 table a:hover{
   color: black;
-  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid #ff9933
 }
-
 
 
 footer{
   padding-top: 20px;
-  background-color: #c9b2ba;
+  background-color: white;
   text-align: center;
-  bottom: 0;
+  bottom: 10;
   width: 100%;
 }
 
 footer p{
   color: black;
+  font-family: 'Marvel', sans-serif;
 }
 
 footer small{
@@ -78,6 +78,7 @@ footer small{
 
 footer a:hover{
   text-decoration: none;
+  border-bottom: 2px solid #ff9933
 }
 
 footer img:hover{
@@ -87,11 +88,11 @@ footer img:hover{
 .about_content{
   padding-bottom: 20px;
 }
-.about_content p {
-  font-family: 'Raleway', sans-serif;
+.col-sm-3 p {
+  font-family: 'Marvel', sans-serif;
   text-align: left;
-  padding-top: 50px;
-  font-size: 14pt;
+  padding-top: 5px;
+  font-size: 12pt;
 }
 
 .about_content img{
@@ -102,7 +103,7 @@ footer img:hover{
 
 .research_content p{
   padding-bottom: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Marvel', sans-serif;
   padding: 15px;
   text-align: left;
   font-size: 14pt;
@@ -116,9 +117,11 @@ footer img:hover{
 .col-sm-6 a{
   color: black;
   text-decoration: none;
+
 }
 
 .col-sm-6 a:hover{
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
+  /* border-bottom: 2px solid #ff9933 */
 }
