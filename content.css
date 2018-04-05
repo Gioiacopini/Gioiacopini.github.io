@@ -1,26 +1,25 @@
 
-nav{
-  font-family: 'Josefin Slab', serif;
-  background-color: white;
-  text-align: center;
+#navbar{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12pt;
+  text-align: left;
 
 }
 .header{
   color: black;
-
   font-family: 'Josefin Slab', serif;
   text-align: center;
 }
 
-nav a{
+#navbar a{
   color: black;
-  padding: 10px;
+  /* padding: 10px; */
   font-size: 15pt;
   text-align: center;
 }
 
-nav a:hover{
-  color: grey;
+#navbar a:hover{
+  font-weight: bold;
   text-decoration:none;
   border-bottom: 2px solid #ff9933
 }
@@ -33,19 +32,14 @@ body{
   background-color: white;
 }
 
-.table {
+table td {
   width: 600px;
   height:30%;
   text-align: left;
   padding: 15px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-.table th{
-  text-align: center;
-  background-color:#ff9933;
-  font-size: 14pt;
-}
 
 table a{
   color: black;
@@ -69,7 +63,7 @@ footer{
 
 footer p{
   color: black;
-  font-family: 'Marvel', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 footer small{
@@ -78,18 +72,13 @@ footer small{
 
 footer a:hover{
   text-decoration: none;
-  border-bottom: 2px solid #ff9933
-}
-
-footer img:hover{
-
 }
 
 .about_content{
   padding-bottom: 20px;
 }
 .col-sm-3 p {
-  font-family: 'Marvel', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: left;
   padding-top: 5px;
   font-size: 12pt;
@@ -98,12 +87,12 @@ footer img:hover{
 .about_content img{
   width: 300px;
   border-radius: 50%;
-  margin-top: 40px;
+
 }
 
 .research_content p{
   padding-bottom: 20px;
-  font-family: 'Marvel', sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 15px;
   text-align: left;
   font-size: 14pt;
@@ -124,4 +113,11 @@ footer img:hover{
   color: black;
   text-decoration: none;
   /* border-bottom: 2px solid #ff9933 */
+}
+
+.col-sm-9 p{
+  font-family: 'Roboto', sans-serif; 
+  text-align: left;
+  font-size: 20pt;
+  margin-top: 20px;
 }
