@@ -83,7 +83,6 @@ html {
 .ABOUTMESECTION{
   margin-top: 0px;
   background-color: #ff944d;
-  text-align: center;
   min-height: 100vh;
 
 }
@@ -97,10 +96,8 @@ html {
 
 .ABOUTMESECTION .aboutmetext{
   padding: 20px;
-  text-align: center;
   font-family: 'Oswald', sans-serif;
   font-size: 12pt;
-
   color: black;
 }
 
@@ -108,6 +105,7 @@ html {
   margin-top: 40px;
   font-family: 'Oswald', sans-serif;
   color: black;
+  text-align: center;
 }
 
 .ABOUTMESECTION hr{
@@ -128,6 +126,7 @@ html {
   background-color: white;
   opacity: 0.7
 
+
 }
 
 .ABOUTMESECTION .col-md-4 p a{
@@ -147,18 +146,24 @@ html {
   min-height: 100vh;
   margin-top: 0px;
   background-color: white;
-  text-align: center;
+  /* text-align: center; */
 }
+
+.PORTFOLIOSECTION .col-md-4{
+  margin-bottom: 80px;
+}
+
 
 .PORTFOLIOSECTION .portfoliotext{
   padding: 20px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .PORTFOLIOSECTION .portfoliotext .sectiontitle{
   margin-top: 40px;
   font-family: 'Oswald', sans-serif;
   color: black;
+  text-align: center;
 }
 .PORTFOLIOSECTION hr{
       background-color: #ff944d !important;
@@ -171,11 +176,11 @@ html {
 
 .PORTFOLIOSECTION img{
   width: 370px;
-  opacity: 1;
+  opacity: 0.85;
 }
-.PORTFOLIOSECTION img:hover{
-  opacity: 0.7;
-}
+
+
+
 
 .PORTFOLIOSECTION p{
   font-family: 'Oswald', sans-serif;
@@ -184,6 +189,38 @@ html {
   font-size: 12pt;
   margin-top: 15px;
 }
+
+
+.imagewrap {
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.imagedescription {
+  position:absolute;
+  margin:0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  text-align: left;
+  background: #ff944d ;
+  padding: 10px;
+  color:black;
+  visibility: hidden;
+  opacity: 1;
+  transition: opacity .2s, visibility .2s;
+}
+
+.imagewrap:hover .imagedescription {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+.imagewrap:hover a{
+  opacity: 1;
+}
+
 
 
 /* research section css */
@@ -239,4 +276,30 @@ html {
 .footer{
   text-align: center;
   padding: 20px;
+}
+
+.imagewrap {
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.imagedescription {
+  position:absolute;
+  margin: 30px;
+  bottom:0;
+  left: 0;
+  right: 0;
+  text-align: left;
+  background: #ff944d ;
+  padding: 10px;
+  color:black;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.imagewrap:hover .imagedescription {
+  visibility: visible;
+  opacity: 0.8;
 }
