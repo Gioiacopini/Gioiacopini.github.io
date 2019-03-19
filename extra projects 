@@ -1,0 +1,13 @@
+
+
+
+
+
+<div class="col-md-4">
+  <div class="imagewrap">
+  <p><b>Social Media Listening</b> <br> </p>
+  <a class="image_img" target="_blank" href="Social Media Listening.html"> <img src="sociamedia.jpeg" alt=""></a>
+  <p class="imagedescription">In this project I apply text analysis techniques to <br> analyse a series of facebook posts.<br>  (Python)   </p>
+
+ </div>
+</div>
