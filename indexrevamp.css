@@ -45,7 +45,7 @@ html {
   position: relative;
   text-align: center;
   min-height: 100vh;
-  background-image: url(background.jpg);
+  background-image: url(background_4.jpeg);
   background-size: cover;
   background-color: hsla(0,0%,100%,0.20);
   background-blend-mode: overlay;
@@ -127,7 +127,7 @@ html {
   padding: 20px;
   background-color: white;
   opacity: 0.7
-  
+
 }
 
 .ABOUTMESECTION .col-md-4 p a{
